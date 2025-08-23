@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Part 1: Event Handling -->
+    <section>
+        <h2>Part 1: Event Handling</h2>
+        <button id="clickMeBtn">Click Me!</button>
+        <p id="clickResult"></p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section>
+        <h2>Part 2: Interactive Elements</h2>
+
+        <!-- Light/Dark Mode Toggle -->
+        <button id="modeToggleBtn">Toggle Light/Dark Mode</button>
+
+        <!-- Counter -->
+        <div>
+            <h3>Counter</h3>
+            <button id="decrementBtn">-</button>
+            <span id="counterValue">0</span>
+            <button id="incrementBtn">+</button>
+        </div>
+
+        <!-- Collapsible FAQ -->
+        <div>
+            <h3 class="faq-question">What is JavaScript?</h3>
+            <p class="faq-answer">JavaScript is a programming language that makes web pages interactive.</p>
+            <h3 class="faq-question">Why validate forms?</h3>
+            <p class="faq-answer">Form validation ensures correct input and improves user experience.</p>
+        </div>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section>
+        <h2>Part 3: Form Validation</h2>
+        <form id="signupForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <span class="error" id="nameError"></span>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <span class="error" id="emailError"></span>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <span class="error" id="passwordError"></span>
+
+            <button type="submit">Submit</button>
+            <p id="formSuccess"></p>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
