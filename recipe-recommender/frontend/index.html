@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Matcher — Recipe Recommender</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🥘 Food Matcher</h1>
+    <p>Type ingredients (e.g., chicken, rice) and get simple recipes.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="ingredients" placeholder="e.g., chicken, tomato, rice">
+      <button id="generate">Get Recipes</button>
+      <input id="filter" placeholder="Filter by keyword (e.g., spicy)">
+    </section>
+
+    <section id="results" class="grid"></section>
+
+    <section class="favorites">
+      <h2>Your Favorites</h2>
+      <div id="favorites" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Built for hackathon speed — Flask + MySQL + OpenAI</small>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
