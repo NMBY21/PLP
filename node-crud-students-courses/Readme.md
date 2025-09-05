@@ -8,10 +8,10 @@ This project implements a clean CRUD app with:
 ## Quick Start
 
 ```bash
-git clone https://github.com/NMBY21/PLP/node-crud-students-courses.git
+git clone https://github.com/NMBY21/PLP/tree/main/node-crud-students-courses
 cd node-crud-students-courses
 npm install
-npm run dev   # runs with nodemon
+npm run dev 
 
 API available at: http://localhost:3000
 
